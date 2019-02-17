@@ -29,7 +29,6 @@ module.exports = class Youtube
         let deferred = promise.defer();
 
         const ts = ytdl(source, {quality: 'highestaudio', retries: 5}).pipe(fs.createWriteStream(path));
-        console.log(ts.eventNames());
         ts.on('close', () => {deferred.resolve();});
 
         return deferred.promise;
