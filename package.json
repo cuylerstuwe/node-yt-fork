@@ -1,0 +1,63 @@
+{
+  "_from": "github:mindaugaskasp/node-youtube",
+  "_id": "@mindaugaskasp/node-youtube@1.0.1",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/@mindaugaskasp/node-youtube",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "@mindaugaskasp/node-youtube@github:mindaugaskasp/node-youtube",
+    "name": "@mindaugaskasp/node-youtube",
+    "escapedName": "@mindaugaskasp%2fnode-youtube",
+    "scope": "@mindaugaskasp",
+    "rawSpec": "github:mindaugaskasp/node-youtube",
+    "saveSpec": "github:mindaugaskasp/node-youtube",
+    "fetchSpec": null,
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "github:mindaugaskasp/node-youtube#eec2fb58c434c846dc75e597867759e915978664",
+  "_spec": "@mindaugaskasp/node-youtube@github:mindaugaskasp/node-youtube",
+  "_where": "/Users/cuylerstuwe/discord-music-bot",
+  "author": {
+    "name": "Mindaugas Kasparavičius"
+  },
+  "bugs": {
+    "url": "https://github.com/mindaugaskasp/node-youtube/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "moment": "^2.24.0",
+    "promise": "^8.0.2",
+    "promised-io": "^0.3.5",
+    "superagent": "^4.1.0",
+    "validator": "^10.11.0",
+    "ytdl": "^0.11.1"
+  },
+  "deprecated": false,
+  "description": "node youtube package for streaming and retrieving audio data",
+  "homepage": "https://github.com/mindaugaskasp/node-youtube#readme",
+  "keywords": [
+    "discord",
+    "youtube",
+    "node",
+    "youtube",
+    "youtube",
+    "stream"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "@mindaugaskasp/node-youtube",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mindaugaskasp/node-youtube.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.1"
+}
